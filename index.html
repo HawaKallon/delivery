@@ -30,6 +30,10 @@
 
 
     <style>
+      body {
+    overflow-x: hidden;
+}
+
       .image-container {
         height: 350px; /* Set a fixed height */
         overflow: hidden; /* Hide overflow */
@@ -64,6 +68,9 @@
   }
 
   .ee-faq-container {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
             background-color: #f8f9fa;
             padding: 4rem 0;
         }
@@ -115,6 +122,9 @@
         .ee-faq-question-short {
             display: none;
         }
+        .ee-faq-question, .ee-faq-question-short {
+    margin-right: 0.5rem; /* Reduce this value from 1rem to 0.5rem or less */
+}
         @media (max-width: 768px) {
             .ee-faq-container {
                 padding: 2rem 0;
