@@ -4,6 +4,9 @@ body {
   color: #4d4d4d;
   font-weight: 300;
   font-size: 1rem; 
+  overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
@@ -402,7 +405,8 @@ h1, h2, h3, h4, h5,
           opacity: 1; }
 
 .site-mobile-menu {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   position: fixed;
   right: 0;
   z-index: 2000;
